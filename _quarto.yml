@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Dinesh Rawal"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: Resume / CV
+      - href: projects.qmd
+        text: Projects
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: false
+    page-layout: full

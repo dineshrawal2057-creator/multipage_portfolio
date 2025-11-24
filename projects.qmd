@@ -1,0 +1,58 @@
+---
+title: "Projects"
+---
+
+<div class="page-header">
+  <p>I have mentioned three projects below which i have performed and completed during college and after joining engineering consultancy.</p>
+</div>
+
+<div class="section-grid">
+
+  <section class="section-card">
+    <h2>MTMP Implementation Geospatial Infrastructure Assessment</h2>
+    <p>
+      <strong>Duration:</strong> 15 days
+    </p>
+    <p>
+      <strong>Role:</strong> Worked as a Surveyor using tools like GPS, Total Station to gather data and map the road conditions, drainage systems, accessibility problems, and public infrastructure
+    </p>
+    <p>
+      <strong>Outcome:</strong> Able to provide correct data that would be used in transport planning and future road improvements
+    </p>
+    <p>
+      <strong>Experience:</strong> Field survey experience and work with the municipal engineers, local leaders and local peoples
+    </p>
+    <p>
+      <strong>Learnings:</strong> Better skills in data collection, surveying tools and MTMP planning process
+    </p>
+  </section>
+
+  <section class="section-card">
+    <h2>Okhaldhunga Ring Road, DPR and Design</h2>
+    <p>
+      <strong>Duration:</strong> 3 months
+    </p>
+    <p>
+      <strong>Role:</strong> Worked as a Site Engineer and Surveyor using GPS, Total Station, SW Road Software, AutoCAD etc. and completed 48km road alignment and aided road design according to Nepal DPR requirements
+    </p>
+    <p>
+      <strong>Deleiverable:</strong> Survey and design information completed in consultancy to be submitted to the municipal to be approved and constructed in future
+    </p>
+    <p>
+      <strong>Experience:</strong> Experience of DPR process and coordination with engineers, co-workers and local people
+    </p>
+    <p>
+      <strong>Learnings:</strong> Improved surveying skills, road design and project documentation skills
+    </p>
+  </section>
+
+  <section class="section-card">
+    <h2>Concept Of One Rupee</h2>
+    <p>
+      <strong>Performance:</strong> Worked as a founder president of a social volunteering and fundraising program for deprived people as a concept of maximization of money, which means a small penny can impact someone's life by donating a small amount. It is a social project done under the subject of economics and microproject management, which was started under my leadership with a team of 500 people with a core group of 50 people who form, manage, and plan a project that will impact people's lives through a popular program like Feed for Hunger Nepal, Education for All, Youth for Development, and so on.
+    </p>
+  </section>
+
+</div>
+
+---

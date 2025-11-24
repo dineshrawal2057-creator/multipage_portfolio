@@ -1,0 +1,82 @@
+---
+title: "Contact"
+---
+
+<div class="section-grid">
+
+  <section class="section-card">
+    <p>
+      I would love to connect and coordinate for possible opportunities in civil engineering and project management.
+    </p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:dineshrawal2057@gmail.com">dineshrawal2057@gmail.com</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dineshrawal/">linkedin.com/in/dineshrawal</a> </li>
+      <li><strong>Location:</strong> 13350 Central Avenue, Surrey BC</li></li>
+      <li><strong>Phone:</strong> +1 6043685629</li>
+    </ul>
+  </section>
+
+  </section>
+
+  <section class="section-card">
+    <h2>Reach Me</h2>
+    <p>If you'd like to reach out directly, please use the form below and I'll get back to you.</p>
+
+    <style>
+    .contact-form label { display:block; margin-top:0.6rem; font-weight:600; }
+    .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+      width:100%; padding:0.6rem; margin-top:0.3rem; border-radius:8px; border:1px solid rgba(148,163,184,0.12);
+      background: transparent; color: inherit; box-sizing: border-box;
+    }
+    .contact-form textarea { min-height:120px; resize:vertical; }
+    .contact-form .btn-submit { margin-top:0.8rem; display:inline-block; background: linear-gradient(135deg,#4f46e5,#6366f1); color:white; padding:0.6rem 1rem; border-radius:10px; text-decoration:none; border:0; cursor:pointer; }
+    .contact-form .form-msg { margin-top:0.7rem; font-size:0.95rem; }
+    </style>
+
+    <form id="contactForm" class="contact-form" aria-label="Contact form">
+      <label for="fullName">Full name</label>
+      <input id="fullName" name="name" type="text" placeholder="Your full name" required>
+
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+      <label for="message">Description of inquiry</label>
+      <textarea id="message" name="message" placeholder="How can I help you?" required></textarea>
+
+      <button type="submit" class="btn-submit">Send message</button>
+
+      <div id="formMessage" class="form-msg" role="status" aria-live="polite"></div>
+    </form>
+
+    <script>
+    (function(){
+      const form = document.getElementById('contactForm');
+      const msg = document.getElementById('formMessage');
+
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        msg.textContent = 'Sending...';
+
+        // Replace the URL below with your Formspree endpoint (e.g. https://formspree.io/f/xxxxx)
+        const endpoint = 'https://formspree.io/f/{your_form_id}';
+
+        fetch(endpoint, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        }).then(response => {
+              // Show the success message immediately (optimistic UI)
+              form.reset();
+              msg.style.color = 'green';
+              msg.textContent = 'These information are successfully sent. I will contact you back soon.';
+              // We still attempt the network request but do not overwrite the success message
+        }).catch(() => {
+          msg.style.color = 'orange';
+          msg.textContent = 'Network error — please try again later.';
+        });
+      });
+    })();
+    </script>
+
+  </section>
+</div>

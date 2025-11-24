@@ -1,0 +1,26 @@
+---
+title: ""
+format:
+  html:
+    page-layout: full
+---
+
+<!-- ===== CENTER HERO STYLE ===== -->
+
+<div class="hero-center">
+
+  <img src="rawal.PNG"  class="profile-pic">
+
+  <h1 class="hero-name">Dinesh Rawal</h1>
+  <p class="hero-role">MBA Student · Civil Engineer</p>
+
+</div>
+
+---
+
+<div class="section-card">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Civil Engineer who believes in discipline and consistency theory for a growth career. I have skills in AutoCAD, structural analysis, cost estimation, project management, structural design, site supervision and practical experience in infrastructure development and design. I am pursuing MBA at UCW to improve my skills in business courses like leadership, project management, Marketing and Application of AI in Business. My career goal is to lead big Projects from the front in the construction field.
+  </p>
+</div>

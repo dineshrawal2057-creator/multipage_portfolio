@@ -1,0 +1,60 @@
+---
+format: html
+page-layout: full
+theme: flatly
+---
+
+<div class="hero-center">
+
+  <img src="dinesh.png"  class="profile-pic">
+
+  <h1 class="hero-name">Dinesh Rawal</h1>
+  <p class="hero-role">Civil Engineer · MBA Student</p>
+
+</div>
+
+---
+
+<div class="section-card">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Civil Engineer who believes in discipline and consistency theory for a growth career. I have skills in AutoCAD, structural analysis, cost estimation, project management, structural design, site supervision and practical experience in infrastructure development and design. I am pursuing MBA at UCW to improve my skills in business courses like leadership, project management, Marketing and Application of AI in Business. My career goal is to lead big Projects from the front in the construction field.
+  </p>
+</div>
+
+<div class="section-card">
+  <h2>Professional Experience</h2>
+  <h5><strong>Civil Engineer</strong> – New Planet Engineering Consultancy, Kathmandu</h5>
+  <ul>
+    <li>I still feel so proud to give the final design of Kumar Balaram Memorial Hostel. I used AutoCAD and Civil 3D to complete the project.</li>
+  </ul>
+  <h5><strong>Site Engineer</strong> – Okhaldhunga Ring Road, DPR and Design</h5>
+  <ul>
+    <li>Worked for 3 months as a surveyor in the site and completed 48 km survey. After that I started working on data and designing using SW Road software. I gave my best till the end of the project.</li>
+  </ul>
+</div>
+
+<div class="section-card">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Master of Business Administration (MBA)</strong> — University Canada West</li>
+    <li><strong>Bachelor of Civil Engineering</strong> — Tribhuvan University, Nepal</li>
+  </ul>
+</div>
+
+<div class="section-card">
+  <h2>Key Skills & Strengths</h2>
+  <div>
+  <ul>
+    <li>AutoCAD</li>
+    <li>Cost Estimation</li><li>Structural Analysis</li><li>Project Management</li><li>Site Supervision</li><li>SW DTM Software</li><li>Microsoft Word & Excel</li>
+  </ul>
+  </div>
+</div>
+
+<div class="section-card">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> <a href="mailto:dineshrawal2057@gmail.com">dineshrawal2057@gmail.com</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/dineshrawal">linkedin.com/in/dineshrawal</a></p>
+  <p><strong>Location:</strong> 13350 Central Avenue, Surrey, BC</p>
+</div>
